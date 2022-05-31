@@ -1,0 +1,97 @@
+* {
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+header {
+    display: inline-block;
+    width: 200px;
+}
+
+body {
+    width: 90%;
+    display: flex;
+    background: linear-gradient(wheat, whitesmoke);
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    border: none;
+    border-radius: 10px;
+}
+
+.input-texto {
+    padding: 10px;
+    margin-top: 150px;
+    background-color: whitesmoke
+}
+
+.mensagem {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background-image: url("img/boneco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: inset;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.botoes button {
+    width: 280px;
+    border-radius: 10px;
+}
+
+
+.encriptar {
+    background-color: rgb(4, 4, 75);
+    color: aliceblue;
+    border: none;
+}
+
+.encriptar:hover {
+    background-color: rgb(3, 3, 121);
+    transform: scale(1.1);
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: rgb(212, 211, 211);
+    border: none;
+}
+
+.desencriptar:hover {
+    background-color: rgb(158, 158, 158);
+    transform: scale(1.1);
+}
+
+.informacao {
+    font-size: 15px;
+}
+
+.btn-copiar {
+    margin-top: 0;
+    margin-left: 220px;
+    background-color: rgb(212, 211, 211);
+    border: none;
+}
+
+.btn-copiar:hover {
+    background-color: rgb(202, 200, 200);
+    transform: scale(1.1);
+}
+
